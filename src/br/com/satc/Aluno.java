@@ -23,7 +23,7 @@ public class Aluno extends Pessoa{
     }
 
     public Aluno(int matricula, Date dataMatricula, String nome, String rg, String cpf, Date dataNascimento, int idade) {
-        super(nome, rg, cpf, dataNascimento, idade);
+        super(nome, rg, cpf, dataNascimento);
         this.matricula = matricula;
         this.dataMatricula = dataMatricula;
     }

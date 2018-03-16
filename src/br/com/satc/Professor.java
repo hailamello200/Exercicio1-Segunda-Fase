@@ -21,7 +21,7 @@ public class Professor extends Pessoa{
     
 
     public Professor(int cargaHoraria, float valorHora, float salario, String nome, String rg, String cpf, Date dataNascimento, int idade) {
-        super(nome, rg, cpf, dataNascimento, idade);
+        super(nome, rg, cpf, dataNascimento);
         this.cargaHoraria = cargaHoraria;
         this.valorHora = valorHora;
         this.salario = calcularSalario(valorHora,cargaHoraria);
