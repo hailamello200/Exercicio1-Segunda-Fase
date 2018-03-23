@@ -59,7 +59,11 @@ public class Main {
 
         do {
             int cargaHoraria;
-            String nome, rg, cpf;
+            float salario=0;
+            float valorHora;
+            String nome;
+            String rg;
+            String cpf;
             Date dataNascimento;
             int idade = 0;
             SimpleDateFormat conversor = new SimpleDateFormat("dd/MM/yyyy");
