@@ -28,11 +28,6 @@ public class Aluno extends Pessoa{
         this.dataMatricula = dataMatricula;
     }
     
-    
-
-    
-    
-    
 
     public int getMatricula() {
         return matricula;
